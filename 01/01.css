@@ -1,0 +1,241 @@
+*{margin:0;padding:0;}
+body{background :#f5f5f5;}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,blockquote,th,td,button 
+{font: 12px/1 "Microsoft YaHei", SimSun, sans-serif;line-height:18px;}
+table{border-collapse:collapse;border-spacing:0}
+fieldset,img{border:0}
+ol,ul{list-style:none}
+th{text-align:left}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}
+sup{vertical-align:text-top}
+sub{vertical-align:text-bottom}
+a{text-decoration:none;}
+i{vertical-align:middle;}
+body{font:12px/1.5 ""}
+.clearfix:after{
+    display:block;
+    content:"";
+    clear:both;
+}
+.m120{margin-left:20px;}
+.mr40{margin:40px;}
+.c-9{color:#999;}
+.fl{float:left;}
+.fr{float:right;}
+.w1230{width:1230px;margin:0 auto;}
+
+
+#wriper{
+    width:100%;
+    min-width:1130px;
+    max-width:1530px;
+}
+#header,.h-topbar{
+    position:relative;
+    z-index:10;
+    width:100%;
+    background-color:#f2f2f2;
+}
+/*.h-topbar8*/ .h-tb-box{
+    width:1230px;
+    margin:0 auto;
+}
+.h-tb-box  li{
+    float:left;
+    line-height:40px;
+}
+/*.h-tb-box*/ .h-rg-nav li{
+    position:relative;
+    padding:0 14px;
+}
+/*.h-tb-box*/ .h-rg-nav i{
+    font-size:12px;
+    line-height:12px;
+    color:red;
+    padding:0 2px;
+}
+/*.h-tb-box .h-rg-nav*/ .down:after{
+    position:absolute;
+    top:1.5em;
+    right:4px;
+    content:"";
+    width:0;
+    height:0;
+    border:4px solid rgba(0,0,0,0);
+    border-top-color:#999;
+}
+/*.h-tb-box .h-rg-nav*/ .h-bor{
+    border-right:1px solid rgba(0,0,0,0);
+    border-left:1px solid rgba(0,0,0,0);
+}
+/*.h-tb-box .h-rg-nav*/ .h-bor:hover{
+    background-color:white;
+    border-right:1px solid #eee;
+    border-left:1px solid #eee;
+}
+/*.h-tb-box .h-rg-nav .h-bor:hover*/ .h-item{
+    display:block;
+}
+.h-rg-nav li .h-item{
+    position:absolute;
+    display:none;
+    top:39px;
+    left:-1px;
+    z-index:-1;
+    width:100%;
+    padding:14px;
+    border:1px solid #eee;
+    line-height:2.5em;
+    background-color:white;
+}
+.h-rg-nav li:hover a{
+    color:red;
+    text-decoration:underline;
+}
+.h-rg-nav .h-bor .h-item a:hover{
+    color:red;
+    text-decoration:underline;
+}
+.h-rg-nav .h-site-nav:hover .h-menu{
+    display:block;
+}
+.h-rg-nav .h-site-nav .h-menu{
+    position:absolute;
+    display:none;
+    top:39px;
+    right:0;
+    z-index:-1;
+    width:1180px;
+    padding:30px 0;
+    border:1px solid #eee;
+    background-color:white;
+}
+.h-site-nav .h-menu .h-m-item{
+    padding:0 30px;
+    height:220px;
+    border-right:1px solid #eee;
+}
+.h-site-nav .h-menu .h-m-item h3{
+    font-size:16px;
+}
+.h-site-nav .h-menu .h-m-item li{
+    float:none;
+    padding:0;
+    line-height:30px;
+}
+.h-site-nav .h-menu .h-m-item a{
+    color:black;
+    text-decoration:underline;
+}
+/*头部区域*/
+.h-content{
+    position:relative;
+}
+.h-content .h-logo h1{
+    position:relative;
+    width:290px;
+    height:130px;
+}
+.h-content .h-logo img{
+    position:absolute;
+    left:-20%;
+    top:0;
+}
+.h-content .h-logo strong{
+    position:absolute;
+    left:-9999px;
+    top:-9999px;
+    z-index:-999;
+}
+.h-content .h-search{
+    position:absolute;
+    left:0;
+    top:0;
+    bottom:0;
+    right:0;
+    width:630px;
+    height:68px;
+    margin:auto;
+    font-size:14px;
+}
+.h-content .h-search input{
+    float:left;
+    outline:none;
+}
+.h-content .h-search [type="text"]{
+    width:490px;
+    height:36px;
+    text-indent:1em;
+    border:2px solid #ff0036;
+}
+.h-content .h-search [type="submit"]{
+    width:136px;
+    height:40px;
+    border:none;
+    font-size:18px;
+    background-color:#ff0036;
+}
+.h-search .h-sub{
+    line-height:2em;
+}
+/*.h-search .h-sub*/ a{
+    color:#999;
+    padding:0 12px;
+    border-right:1px solid #999;
+}
+/*.h-search .h-sub*/ .p0{
+    padding-left:0;
+}
+/*.h-search .h-sub*/ .bor{
+    padding-right:none;
+}
+/*.h-search .h-sub*/ .cred{
+    color:red;
+}
+
+
+#tou{
+    width:100%;
+    height:40px;
+    background:rgb(85, 72, 72);
+}
+#content{
+    background-color:red;
+}
+.c-navbar{
+    width:1030px;
+    margin-left:200px;
+    background-color:white;
+}
+.c-navbar li{
+    float:left;
+    line-height:2em;
+    font-size:16px;
+}
+.c-navbar li a{
+    psdding:0 8px;
+    color:#333;
+}
+#ban{
+    width:100%;
+    height:500px;
+    background:#3399cc;
+}
+#bai{
+    width:252px;
+    height:120px;
+    background:rgb(139, 124, 124);
+    margin-left:0px;
+}
+.wrap{
+    width:90%;
+    height:500px;
+    background:#12c2ee;
+    margin-left:auto;
+    margin-right:auto;
+}
+.nav{
+    width:200px;
+    height:500px;
+    background:#333;
+}
